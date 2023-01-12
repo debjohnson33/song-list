@@ -16,7 +16,7 @@ const theme = extendTheme({
       700: "#616161",
       800: "#424242",
       900: "#212121",
-    }
+    },
   },
   components: {
     Button: {
@@ -25,11 +25,11 @@ const theme = extendTheme({
           ":focus": {
             outline: "none",
             boxShadow: "none",
-          }
-        }
-      }
-    }
-  }
+          },
+        },
+      },
+    },
+  },
 });
 
 const MyApp = ({ Component, pageProps }) => {
@@ -48,4 +48,4 @@ const MyApp = ({ Component, pageProps }) => {
   );
 };
 
-export default MyApp
+export default MyApp;
